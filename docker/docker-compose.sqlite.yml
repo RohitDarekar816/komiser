@@ -1,5 +1,3 @@
-version: '3'
-
 services:
   komiser:
     build: ../
@@ -8,4 +6,4 @@ services:
     volumes:
       - ./komiser.db:/usr/bin/komiser.db
     ports:
-      - 3000:3000
+      - 3001:3000

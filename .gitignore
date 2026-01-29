@@ -12,9 +12,10 @@ bin
 *.db
 
 .vscode/
-.env
 dist/
 
 *.go-e
 .idea
 vendor
+config.bat
+node_modules
